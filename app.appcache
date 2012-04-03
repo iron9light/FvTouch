@@ -1,7 +1,7 @@
 CACHE MANIFEST
 index.html
 app.js
-touch/builds/sencha-touch-all-compat.js
+touch/sencha-touch-all.js
 css/default-theme.css
 css/preselected.css
 css/running.css
