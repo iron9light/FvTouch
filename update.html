@@ -2,7 +2,8 @@
 <html>
 <body>
 <script type="text/javascript">
-    var regex = /iron9light/
+  function(){
+    var regex = /iron9light/;
     var keys = [];
     for(var k in window.localStorage) {
         if(regex.test(k)) keys.push(k);
@@ -10,6 +11,7 @@
     for(var k in keys) {
         window.localStorage.removeItem(k)
     }
+  }();
 </script>
 </body>
 </html>
