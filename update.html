@@ -2,7 +2,7 @@
 <html>
 <body>
 <script type="text/javascript">
-  function(){
+  (function(){
     var regex = /iron9light/;
     var keys = [];
     for(var k in window.localStorage) {
@@ -12,7 +12,7 @@
         window.localStorage.removeItem(keys[k]);
     }
     window.location = "./";
-  }();
+  })();
 </script>
 </body>
 </html>
