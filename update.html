@@ -9,8 +9,9 @@
         if(regex.test(k)) keys.push(k);
     }
     for(var k in keys) {
-        window.localStorage.removeItem(k)
+        window.localStorage.removeItem(keys[k]);
     }
+    window.location = "./";
   }();
 </script>
 </body>
